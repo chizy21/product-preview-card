@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/chizy21/product-preview-card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/chizy21/product-preview-card]
+- Live Site URL: [https://peaceful-lollipop-1422c4.netlify.app/]
 
 ## My process
 
