@@ -1,11 +1,5 @@
 :root {
   --bg: #fff;
-  --bg-panel: #fff;
-  --color-headings: #161c2d;
-  --color-text-opacity: rgba(22, 28, 45, 0.7);
-  --color-text: #161c2d;
-  --color-text-base: #161c2d;
-  --border: #383f53;
   --color-cyan: hsl(158, 36%, 37%);
   --color-cream: hsl(30, 38%, 92%);
   --color-very-dark-blue: hsl(212, 21%, 14%);
@@ -30,61 +24,112 @@ nav {
 body {
   margin: 0;
   font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: var(--color-text);
   background-color: var(--bg);
-  text-align: left;
 }
 
-a {
-  color: #495fef;
-  text-decoration: none;
-  background-color: transparent;
+img {
+  width: 300px;
+  height: 450px;
+  left: 0px;
+  top: 0px;
 }
 
-h1,
-h2,
-h3,
-h4 {
+h2 {
+  height: 15px;
+  left: 55.25%;
+  right: 29.42%;
+  top: calc(50% - 15px / 2 - 185.5px);
+  /* Overline */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  letter-spacing: 5px;
+  /* Aurometal Saurus */
+  color: var(--color-dark-gray);
+}
+
+h1 {
+  height: 96px;
+  left: 55.33%;
+  right: 5.33%;
+  top: calc(50% - 96px / 2 - 110px);
+  /* Display */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  /* or 100% */
+  /* Gunmetal */
   color: var(--color-very-dark-blue);
-  margin-top: 0.25rem;
-  margin-bottom: 0.5rem;
 }
 
 p {
-  margin-top: 0;
+  height: 92px;
+  left: 55.25%;
+  right: 5.25%;
+  top: calc(50% - 92px / 2 + 8px);
+  /* Body */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
+  line-height: 23px;
+  /* or 164% */
+  /* Aurometal Saurus */
+  color: var(--color-dark-gray);
 }
 
-button {
-  outline: none;
-}
-
-.btn {
-  font-weight: 700;
-  min-width: 175px;
-  display: inline-flex;
+.card-footer--price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  text-transform: uppercase;
-  letter-spacing: 1.63px;
-  transition: 0.4s;
-  height: 65px;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
-.btn:not(:disabled):not(.disabled),
-button:not(:disabled):not(.disabled) {
-  cursor: pointer;
+.card-footer--price--old {
+  height: 23px;
+  left: 79.67%;
+  right: 12.33%;
+  top: calc(50% - 23px / 2 + 99.5px);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 23px;
+  /* identical to box height, or 177% */
+  text-decoration-line: line-through;
+  /* Aurometal Saurus */
+  color: var(--color-dark-gray);
 }
 
-.btn-primary,
-.btn-primary a {
-  color: #fff;
+.card-footer--price--new {
+  height: 32px;
+  left: 55.33%;
+  right: 23.5%;
+  top: calc(50% - 32px / 2 + 99px);
+  /* Display */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  /* identical to box height, or 100% */
+  /* Deep Aquamarine */
+  color: #3d8168;
+}
+
+.btn-primary {
+  width: 236px;
+  height: 48px;
+  left: 332px;
+  top: 370px;
   background-color: var(--color-cyan);
-  border-color: var(--color-cyan);
+  border-radius: 8px;
+  color: var(--color-white);
 }
 
 .attribution {
