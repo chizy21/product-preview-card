@@ -1,0 +1,96 @@
+:root {
+  --bg: #fff;
+  --bg-panel: #fff;
+  --color-headings: #161c2d;
+  --color-text-opacity: rgba(22, 28, 45, 0.7);
+  --color-text: #161c2d;
+  --color-text-base: #161c2d;
+  --border: #383f53;
+  --color-cyan: hsl(158, 36%, 37%);
+  --color-cream: hsl(30, 38%, 92%);
+  --color-very-dark-blue: hsl(212, 21%, 14%);
+  --color-dark-gray: hsl(228, 12%, 48%);
+  --color-white: hsl(0, 0%, 100%);
+}
+
+section,
+footer,
+header,
+main,
+nav {
+  display: block;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--color-text);
+  background-color: var(--bg);
+  text-align: left;
+}
+
+a {
+  color: #495fef;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--color-very-dark-blue);
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+button {
+  outline: none;
+}
+
+.btn {
+  font-weight: 700;
+  min-width: 175px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 1.63px;
+  transition: 0.4s;
+  height: 65px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.btn:not(:disabled):not(.disabled),
+button:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.btn-primary,
+.btn-primary a {
+  color: #fff;
+  background-color: var(--color-cyan);
+  border-color: var(--color-cyan);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
